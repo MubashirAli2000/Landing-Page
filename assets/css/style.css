@@ -1,0 +1,214 @@
+#front{
+background-color: #4E47E5;
+height: 100vh;
+
+}
+.container-fluid{
+    padding-left: 0px !important;
+}
+
+.navbar {
+    position: fixed !important;
+    top: 0 !important;
+    width: 100% !important;
+    z-index: 999 !important;
+    background-color: #4E47E5;
+}
+.navbar-nav > .nav-item > .nav-link {
+    background-color: white;
+    color: black !important;
+    border: 1px solid #0000002e;
+}
+
+form{
+    background: white;
+    border-radius: 25px;
+    overflow: hidden;
+    width: 77%;
+    height: 95%;
+}
+
+
+#file-input{
+display: none;
+
+}
+#file-input-label{
+    background-color: #4E47E5;
+    color: white;
+    font-size: small;
+    font-weight: 600;
+    border-radius: 35px;
+}
+
+.header_title{
+    color: white;
+    font-weight: 900;
+    font-size: 4rem;
+}
+.btn1{
+    border-radius: 100px !important;
+    width: 10rem;
+    color: black;
+}
+
+    .btn2{
+        border-radius: 100px !important;
+        width: 10rem;
+        color: white;
+        background-color: black;
+        margin-top: 0;
+    }
+    .form-control{
+        border: 2px solid #ced4da !important;
+        border-radius: 0% !important;
+    }
+
+    input[type="email"], input[type="phone"]{
+        border-bottom: none !important;
+    }
+
+.About{
+    background-color: #F6F6FF;
+    height: 100vh;
+}
+.About > .container-fluid{
+    padding-top:  10%;
+}
+.about-title{
+
+    text-align: center;
+    color:#4E47E5;
+}
+.about_paragraph{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: justify;
+}
+
+
+
+/* Pricing Section */
+
+.Pricing{
+background-color: #F6F6FF;
+height: 100vh;
+}
+
+.Pricing > .container-fluid > .container{
+max-width: 850px !important;
+}
+
+.pricing-title > h2{
+    text-align: center;
+    color: #4E47E5;
+    font-weight: 700;
+}
+.individual, .premium{
+    background-color: white;
+    height: 100%;
+    border-radius: 50px;
+    text-align: center;
+    padding-left: 20px;
+    width:100%;
+    
+} 
+.price-tag{
+    font-weight: 400 !important;
+}
+
+
+.individual > h4, .premium > h4{
+    font-weight: 700 !important;
+    font-size: 1.3rem !important;
+}
+
+.fa-times{
+    color: red;
+}
+
+.premium-button{
+    border-radius: 100px !important;
+    width: 10rem;
+    color: white;
+    background-color: #4E47E5;
+}
+
+.pro{
+    padding-left: 20px;
+    background-color: #4E47E5;
+    height: 100%;
+    border-radius: 50px;
+    text-align: center;
+    color: white;
+    width:100%;
+}
+.pro-button{
+    border-radius: 100px !important;
+    width: 10rem;
+    color: #4E47E5;
+    background-color: white;
+}
+.pricing-p{
+    font-size:0.9rem;
+}
+  /* Pricing Section End */
+
+
+  @media only screen and  (max-width: 1197px) and (min-width: 375px) {
+    #front {
+      height: auto;
+      }
+      form{
+        width: 45%;
+      }
+.btn2{
+    margin-top: 0;
+}
+    #front > .container> .row > .col-md-8{
+    padding-top: 30px;
+    }
+
+    .header_title{
+    font-size: 3rem;
+    }
+
+
+    
+    .about_paragraph {
+        font-size: small;
+        padding-left: 26px;
+    }
+
+    .about_paragraph > p{
+        font-size: 15px;
+    }
+
+    .Pricing{
+      height: auto;
+    }
+
+    .Pricing > .container-fluid > .container {
+      padding-left: 59px;
+      padding-right: 59px;
+    }
+
+    .Pricing > .container-fluid > .container >.row > .col-md-4{
+        padding-bottom: 20px;
+    }
+
+  }
+
+  @media only screen and  (max-width: 990px) and (min-width: 375px) {
+    .navbar-nav{
+        padding-left: 15px !important;
+    }
+      }
+  
+
+  @media only screen and  (max-width: 1197px) and (min-width: 769px) {
+form{
+    width: 80%;
+}
+  }
